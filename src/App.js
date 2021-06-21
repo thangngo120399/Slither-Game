@@ -88,7 +88,7 @@ function App() {
     setSnakeDots(newSnake);
   }
   function onGameOver() {
-    alert(`Game over, Snake lenght is  ${snakeDots.length}`);
+    alert(`Game over, Snake lenght is  ${snakeDots.length} !!!`);
     initialState();
   }
 
