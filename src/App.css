@@ -1,0 +1,32 @@
+.game-area{
+  position: relative;
+  margin: 50px auto;
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+
+}
+.snake-dot{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: rgb(28, 223, 197);
+  border: 1px solid white;
+  z-index: 2;
+  border-radius: 10px;
+}
+.snake-food{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 10px;
+  z-index:1;
+}
+.img-head{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  z-index: 3;
+}
